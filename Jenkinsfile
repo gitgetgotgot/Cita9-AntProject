@@ -18,11 +18,20 @@ pipeline {
             }
         }
 
+        stage('Init') {
+            steps {
+                script {
+                    echo "Initializing build directories..."
+                    bat "ant -f build.xml init"
+                }
+            }
+        }
+
         stage('Build') {
             steps {
                 script {
                     echo "Using Ant from: ${env.ANT_HOME}"
-                    bat "ant -f build.xml init clean compile jar"
+                    bat "ant -f build.xml clean compile jar"
                 }
             }
         }
