@@ -22,7 +22,7 @@ pipeline {
             steps {
                 script {
                     echo "Using Ant from: ${env.ANT_HOME}"
-                    bat "ant -f build.xml clean compile jar"
+                    bat "ant -f build.xml init clean compile jar"
                 }
             }
         }
