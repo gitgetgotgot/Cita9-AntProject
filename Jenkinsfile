@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        JAVA_HOME = 'C:\Program Files\Java\jdk-21'
-        ANT_HOME = 'C:\Program Files\apache-ant-1.10.14-bin\apache-ant-1.10.14'
+        JAVA_HOME = 'C:\\Program Files\\Java\\jdk-21'
+        ANT_HOME = 'C:\\Program Files\\apache-ant-1.10.14-bin\\apache-ant-1.10.14'
         PATH = "${ANT_HOME}\\bin;${JAVA_HOME}\\bin;${env.PATH}"
     }
 
@@ -31,7 +31,7 @@ pipeline {
             steps {
                 script {
                     echo "Using Ant from: ${env.ANT_HOME}"
-                    bat "ant -f build.xml clean compile jar"
+                    bat "ant -f build.xml compile jar"
                 }
             }
         }
