@@ -27,6 +27,15 @@ pipeline {
             }
         }
 
+        stage('Clean') {
+            steps {
+                script {
+                    echo "Cleaning build directories..."
+                    bat "ant -f build.xml clean"
+                }
+            }
+        }
+
         stage('Build') {
             steps {
                 script {
