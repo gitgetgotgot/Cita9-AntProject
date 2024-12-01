@@ -12,6 +12,12 @@
         <mkdir dir="${dist.dir}"/>
     </target>
 
+    <!-- Clean the build and dist directories -->
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+        <delete dir="${dist.dir}"/>
+    </target>
+
     <!-- Compile the source code -->
     <target name="compile">
         <javac srcdir="${src.dir}" destdir="${build.dir}">
@@ -33,9 +39,4 @@
         </jar>
     </target>
 
-    <!-- Clean the build and dist directories -->
-    <target name="clean">
-        <delete dir="${build.dir}"/>
-        <delete dir="${dist.dir}"/>
-    </target>
 </project>
