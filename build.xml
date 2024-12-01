@@ -1,0 +1,41 @@
+<project name="Lab9" basedir="." default="jar">
+    <!-- Directories -->
+    <property name="src.dir" value="src"/>
+    <property name="build.dir" value="build"/>
+    <property name="dist.dir" value="dist"/>
+    <property name="lib.dir" value="lib"/>
+    <property name="main-class" value="org.example.Main"/>
+
+    <!-- Make directories -->
+    <target name="init">
+        <mkdir dir="${build.dir}"/>
+        <mkdir dir="${dist.dir}"/>
+    </target>
+
+    <!-- Compile the source code -->
+    <target name="compile">
+        <javac srcdir="${src.dir}" destdir="${build.dir}">
+            <classpath>
+                <fileset dir="${lib.dir}" includes="**/*.jar"/>
+            </classpath>
+        </javac>
+    </target>
+
+    <!-- Create the JAR file with dependencies -->
+    <target name="jar" depends="compile">
+        <jar destfile="${dist.dir}/Lab9.jar" basedir="${build.dir}">
+            <!-- Specify the main class in the manifest directly -->
+            <manifest>
+                <attribute name="Main-Class" value="${main-class}"/>
+            </manifest>
+            <!-- Include the external libraries in the JAR -->
+            <zipgroupfileset dir="${lib.dir}" includes="**/*.jar"/>
+        </jar>
+    </target>
+
+    <!-- Clean the build and dist directories -->
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+        <delete dir="${dist.dir}"/>
+    </target>
+</project>

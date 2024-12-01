@@ -1,0 +1,302 @@
+[
+  {
+    "type": "Car",
+    "vendor": "Toyota",
+    "model": "Camry",
+    "color": "Red",
+    "price": 30000.0,
+    "year": 2020,
+    "engine": "V6",
+    "doors": 4
+  },
+  {
+    "type": "Car",
+    "vendor": "Honda",
+    "model": "Civic",
+    "color": "Blue",
+    "price": 20000.0,
+    "year": 2019,
+    "engine": "I4",
+    "doors": 4
+  },
+  {
+    "type": "Car",
+    "vendor": "Ford",
+    "model": "Mustang",
+    "color": "Black",
+    "price": 35000.0,
+    "year": 2021,
+    "engine": "V8",
+    "doors": 2
+  },
+  {
+    "type": "Plane",
+    "vendor": "Boeing",
+    "model": "737",
+    "color": "White",
+    "price": 100000000.0,
+    "year": 2018,
+    "engines": 2,
+    "seats": 180
+  },
+  {
+    "type": "Plane",
+    "vendor": "Airbus",
+    "model": "A320",
+    "color": "Blue",
+    "price": 110000000.0,
+    "year": 2019,
+    "engines": 2,
+    "seats": 200
+  },
+  {
+    "type": "Plane",
+    "vendor": "Cessna",
+    "model": "172",
+    "color": "Red",
+    "price": 300000.0,
+    "year": 2020,
+    "engines": 1,
+    "seats": 4
+  },
+  {
+    "type": "Boat",
+    "vendor": "Yamaha",
+    "model": "242X",
+    "color": "White",
+    "price": 75000.0,
+    "year": 2021,
+    "has_motor": true,
+    "has_sail": false
+  },
+  {
+    "type": "Boat",
+    "vendor": "Bayliner",
+    "model": "Element E18",
+    "color": "Blue",
+    "price": 20000.0,
+    "year": 2019,
+    "has_motor": true,
+    "has_sail": false
+  },
+  {
+    "type": "Boat",
+    "vendor": "Beneteau",
+    "model": "Oceanis 38.1",
+    "color": "White",
+    "price": 150000.0,
+    "year": 2018,
+    "has_motor": true,
+    "has_sail": true
+  },
+  {
+    "type": "Car",
+    "vendor": "Chevrolet",
+    "model": "Malibu",
+    "color": "Silver",
+    "price": 25000.0,
+    "year": 2020,
+    "engine": "I4",
+    "doors": 4
+  },
+  {
+    "type": "Car",
+    "vendor": "BMW",
+    "model": "3 Series",
+    "color": "Black",
+    "price": 40000.0,
+    "year": 2021,
+    "engine": "I6",
+    "doors": 4
+  },
+  {
+    "type": "Car",
+    "vendor": "Audi",
+    "model": "A4",
+    "color": "White",
+    "price": 45000.0,
+    "year": 2022,
+    "engine": "I4",
+    "doors": 4
+  },
+  {
+    "type": "Plane",
+    "vendor": "Embraer",
+    "model": "E190",
+    "color": "Green",
+    "price": 120000000.0,
+    "year": 2020,
+    "engines": 2,
+    "seats": 100
+  },
+  {
+    "type": "Plane",
+    "vendor": "Bombardier",
+    "model": "CRJ900",
+    "color": "Yellow",
+    "price": 130000000.0,
+    "year": 2019,
+    "engines": 2,
+    "seats": 90
+  },
+  {
+    "type": "Plane",
+    "vendor": "Gulfstream",
+    "model": "G650",
+    "color": "Black",
+    "price": 65000000.0,
+    "year": 2021,
+    "engines": 2,
+    "seats": 18
+  },
+  {
+    "type": "Boat",
+    "vendor": "Sea Ray",
+    "model": "SLX 400",
+    "color": "Red",
+    "price": 500000.0,
+    "year": 2020,
+    "has_motor": true,
+    "has_sail": false
+  },
+  {
+    "type": "Boat",
+    "vendor": "Chaparral",
+    "model": "287 SSX",
+    "color": "Blue",
+    "price": 150000.0,
+    "year": 2019,
+    "has_motor": true,
+    "has_sail": false
+  },
+  {
+    "type": "Boat",
+    "vendor": "Jeanneau",
+    "model": "Sun Odyssey 440",
+    "color": "White",
+    "price": 300000.0,
+    "year": 2021,
+    "has_motor": true,
+    "has_sail": true
+  },
+  {
+    "type": "Car",
+    "vendor": "Mercedes-Benz",
+    "model": "C-Class",
+    "color": "Black",
+    "price": 50000.0,
+    "year": 2022,
+    "engine": "I4",
+    "doors": 4
+  },
+  {
+    "type": "Car",
+    "vendor": "Tesla",
+    "model": "Model S",
+    "color": "White",
+    "price": 80000.0,
+    "year": 2021,
+    "engine": "Electric",
+    "doors": 4
+  },
+  {
+    "type": "Car",
+    "vendor": "Nissan",
+    "model": "Altima",
+    "color": "Gray",
+    "price": 24000.0,
+    "year": 2020,
+    "engine": "I4",
+    "doors": 4
+  },
+  {
+    "type": "Plane",
+    "vendor": "Dassault",
+    "model": "Falcon 7X",
+    "color": "Silver",
+    "price": 52000000.0,
+    "year": 2018,
+    "engines": 3,
+    "seats": 14
+  },
+  {
+    "type": "Plane",
+    "vendor": "Piper",
+    "model": "PA-28",
+    "color": "Blue",
+    "price": 300000.0,
+    "year": 2019,
+    "engines": 1,
+    "seats": 4
+  },
+  {
+    "type": "Plane",
+    "vendor": "Beechcraft",
+    "model": "King Air 350",
+    "color": "White",
+    "price": 8000000.0,
+    "year": 2020,
+    "engines": 2,
+    "seats": 11
+  },
+  {
+    "type": "Boat",
+    "vendor": "MasterCraft",
+    "model": "X24",
+    "color": "Black",
+    "price": 200000.0,
+    "year": 2021,
+    "has_motor": true,
+    "has_sail": false
+  },
+  {
+    "type": "Boat",
+    "vendor": "Regal",
+    "model": "33 XO",
+    "color": "Red",
+    "price": 300000.0,
+    "year": 2020,
+    "has_motor": true,
+    "has_sail": false
+  },
+  {
+    "type": "Boat",
+    "vendor": "Hanse",
+    "model": "458",
+    "color": "Blue",
+    "price": 400000.0,
+    "year": 2019,
+    "has_motor": true,
+    "has_sail": true
+  },
+  {
+    "type": "Car",
+    "vendor": "Volkswagen",
+    "model": "Passat",
+    "color": "Silver",
+    "price": 28000.0,
+    "year": 2021,
+    "engine": "I4",
+    "doors": 4
+  },
+  {
+    "type": "Car",
+    "vendor": "Mazda",
+    "model": "CX-5",
+    "color": "White",
+    "price": 32000.0,
+    "year": 2022,
+    "engine": "I4",
+    "doors": 4
+  },
+  {
+    "type": "Car",
+    "vendor": "Toyota",
+    "model": "Supra MK4",
+    "color": "Magenta",
+    "price": 36000.0,
+    "year": 2009,
+    "engine": "V6",
+    "doors": 4
+  }
+]
