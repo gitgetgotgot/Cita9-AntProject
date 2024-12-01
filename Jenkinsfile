@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/DmitriySkurat/antEx.git', branch: 'main'
+                git url: 'https://github.com/gitgetgotgot/Cita9-AntProject.git', branch: 'main'
             }
         }
 
@@ -48,16 +48,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                echo "Deploying application..."
-                sshPublisher(publishers: [sshPublisherDesc(
-                    configName: 'remote-server',
-                    transfers: [sshTransfer(
-                        sourceFiles: 'dist/Lab9.jar',
-                        removePrefix: 'dist',
-                        remoteDirectory: '/путь/на/сервере',
-                        execCommand: 'java -jar /путь/на/сервере/Lab9.jar'
-                    )]
-                )])
+                echo "Deploy stage (optional)..."
             }
         }
     }
