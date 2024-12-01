@@ -13,13 +13,13 @@
     </target>
 
     <!-- Clean the build and dist directories -->
-    <target name="clean">
+    <target name="clean" depends="init">
         <delete dir="${build.dir}"/>
         <delete dir="${dist.dir}"/>
     </target>
 
     <!-- Compile the source code -->
-    <target name="compile">
+    <target name="compile" depends="init">
         <javac srcdir="${src.dir}" destdir="${build.dir}">
             <classpath>
                 <fileset dir="${lib.dir}" includes="**/*.jar"/>
@@ -38,5 +38,4 @@
             <zipgroupfileset dir="${lib.dir}" includes="**/*.jar"/>
         </jar>
     </target>
-
 </project>
